@@ -26,6 +26,8 @@ void setup() {
 
   M5.begin(cfg);
 
+  M5.Displays(0).setTextSize(2);
+  M5.Displays(0).setTextDatum(CC_DATUM);
   M5.Displays(0).drawString("Hello World!", 160, 20);
 }
 
