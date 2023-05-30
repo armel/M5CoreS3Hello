@@ -25,6 +25,8 @@ void setup() {
   cfg.external_display.module_rca     = false;  // default=false. use ModuleRCA VideoOutput
 
   M5.begin(cfg);
+
+  M5.Displays(0).drawString("Hello World!", 160, 20);
 }
 
 // Main loop
