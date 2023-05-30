@@ -1,6 +1,7 @@
 // Copyright (c) F4HWN Armel. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
+#define ARDUINO_M5STACK_CORES3
 #include <M5Unified.h>
 
 // Setup
