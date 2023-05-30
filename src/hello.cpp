@@ -17,8 +17,8 @@ void setup() {
   cfg.external_imu = false;                     // default=false. use Unit Accel & Gyro.
   cfg.external_rtc = false;                     // default=false. use Unit RTC.
 
-  cfg.external_display.module_display = true;   // default=true. use ModuleDisplay
-  cfg.external_display.atom_display   = true;   // default=true. use AtomDisplay
+  cfg.external_display.module_display = false;   // default=true. use ModuleDisplay
+  cfg.external_display.atom_display   = false;   // default=true. use AtomDisplay
   cfg.external_display.unit_oled      = false;  // default=true. use UnitOLED
   cfg.external_display.unit_lcd       = false;  // default=true. use UnitLCD
   cfg.external_display.unit_rca       = false;  // default=false. use UnitRCA VideoOutput
